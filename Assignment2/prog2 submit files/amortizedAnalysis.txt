@@ -1,0 +1,43 @@
+Lachlan Sinclair
+Date: 4/22/2019
+Decription: Answers to part 2 of the homework.
+
+Part 1: 
+
+Answer:
+To add 50 elements takes 106 total cost units, which averages to 2.12 cost per push.
+Big O complexity is O(1)+ 
+
+Units in   | total pushes
+the array  |
+8		8
+9		17
+16		24
+17		41
+32		56
+33		89
+50		106 = 9+16+32+50
+
+Part2: 
+
+Answer: 638 total cost units: 12.76 average cost. This is around
+(N/4) operations per push therefor the big O complexity is O(N).
+
+
+Units in   | total pushes
+the array  |
+
+8		8
+9		17
+10		18
+11		29
+12		30
+13		43
+14		44
+
+from this it is clear that the total cost is equal to 
+the sum of even of all even unit iterations, i.e. 12 units
+=8+10+12=30 cost. Therefor 50 is 638 unit cost.
+
+
+
